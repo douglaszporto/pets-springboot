@@ -11,6 +11,7 @@ or
 ```
 cd challenge-fullstack
 .\gradlew.bat bootRun
+```
 
 It requires Java 17 and docker installed on your machine. 
 
