@@ -1,0 +1,9 @@
+pluginManagement {
+	repositories {
+		maven { url 'https://repo.spring.io/milestone' }
+		maven { url 'https://repo.spring.io/snapshot' }
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'challenge-fullstack'
+ext['junit-jupiter.version'] = '5.5.2'

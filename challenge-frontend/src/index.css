@@ -1,0 +1,72 @@
+:root {
+    --theme-color-background: #f0f0f0;
+    --theme-color-background-aux: #d0d0d0;
+    --theme-color-background-hover: #c0c0c0;
+    --theme-color-background-error: #fdd;
+    --theme-color-border-input: #aaa;
+    --theme-color-background-input: #fff;
+    --theme-color-font: #333;
+    --theme-color-primary: #090;
+    --theme-color-secondary: #25f;
+
+  
+    color-scheme: light dark;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 320px;
+    min-height: 100vh;
+    font-size: 16px;
+    color: var(--theme-color-font);
+    background-color: var(--theme-color-background);
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (min-width: 1000px) {
+    body {
+        align-items: center;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-color-background: #222;
+        --theme-color-background-aux: #333;
+        --theme-color-background-hover: #444;
+        --theme-color-background-error: #600;
+        --theme-color-border-input: #555;
+        --theme-color-background-input: #000;
+        --theme-color-font: #fff;
+        --theme-color-primary: #090;
+        --theme-color-secondary: #25f;
+    }
+}
