@@ -36,6 +36,6 @@ npm i
 npm run dev
 ```
 
-Note that if your servers are runnig in different ports (5173 for frontend and 8080 for backend), it MUST be changed on .env file
+Note that if your servers are runnig in different ports than 5173 for frontend and 8080 for backend, it MUST be changed on .env file
 
-To see application running: (http://localhost:5173)[http://localhost:5173]
+To see application running: [http://localhost:5173](http://localhost:5173)
